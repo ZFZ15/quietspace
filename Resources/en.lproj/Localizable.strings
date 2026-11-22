@@ -1,0 +1,384 @@
+/* Auth & common */
+"静界" = "QuietSpace";
+"账号" = "Account";
+"密码" = "Password";
+"登录" = "Log in";
+"注册新账号" = "Create account";
+"还没有账号？" = "No account yet?";
+"忘记密码？" = "Forgot password?";
+"演示账号 demo · 密码 123456" = "Demo account demo · Password 123456";
+"重置密码" = "Reset password";
+"知道了" = "Got it";
+"这是原型演示，请联系管理员重置密码。" = "This is a prototype. Please contact the administrator to reset your password.";
+"请先填写账号" = "Enter your account first";
+"请先填写密码" = "Enter your password first";
+"账号或密码不正确，请再试一次" = "Incorrect account or password. Try again.";
+"账号至少需要 2 个字符" = "Account must be at least 2 characters";
+"账号最多 20 个字符" = "Account must be at most 20 characters";
+"密码至少需要 6 位" = "Password must be at least 6 characters";
+"两次输入的密码不一致" = "Passwords do not match";
+"这个账号已经注册过了" = "This account is already registered";
+"给感官敏感的你，一处安静的地方" = "A quiet place for sensory-sensitive you";
+"低刺激界面 · 轻动效" = "Low-stimulation · Gentle motion";
+"低刺激界面，没有动画" = "Low-stimulation interface, no animation";
+"显示密码" = "Show password";
+"隐藏密码" = "Hide password";
+"返回" = "Back";
+"取消" = "Cancel";
+"完成" = "Done";
+"删除" = "Delete";
+"关闭" = "Close";
+"设置" = "Settings";
+"中文" = "中文";
+"English" = "English";
+"语言" = "Language";
+"返回登录" = "Back to sign in";
+
+/* Register */
+"创建账号" = "Create account";
+"只需要一个账号名和密码，之后可以随时回来。" = "Just an account name and password. You can come back anytime.";
+"密码（至少 6 位）" = "Password (6+ characters)";
+"再输入一次密码" = "Re-enter password";
+"创建并登录" = "Create & sign in";
+"已经有账号了？" = "Already have an account?";
+"账号仅保存在这台设备上，用于原型演示。" = "Accounts stay on this device for the prototype.";
+
+/* Account */
+"昵称" = "Nickname";
+"账号 ID" = "Account ID";
+"登录方式" = "Sign-in method";
+"本机账号" = "Local account";
+"本地账号" = "Local account";
+"重新评估感官" = "Reassess sensory profile";
+"完成感官自测" = "Complete sensory check-in";
+"清除上一次结果，重新做 10 道题" = "Clear the last result and retake 10 questions";
+"完成后解锁每日计划" = "Unlock your daily plan when done";
+"退出登录" = "Log out";
+"静界 0.1 · 本地原型" = "QuietSpace 0.1 · Local prototype";
+"清除上一次自测？" = "Clear your last check-in?";
+"清除并重新评估" = "Clear and reassess";
+"清除后需要重新完成 10 道题，每日计划会暂时锁定。" = "You will need to answer 10 questions again. The daily plan will be locked temporarily.";
+"已完成感官自测" = "Sensory check-in complete";
+"尚未完成感官自测" = "Sensory check-in not complete";
+"打开账号信息" = "Open account info";
+
+/* Home */
+"你好，%@" = "Hello, %@";
+"账号已创建，先完成自测再开始。" = "Account created. Complete the check-in first.";
+"欢迎回来。" = "Welcome back.";
+"今日计划" = "Today's plan";
+"按自己的节奏来。" = "Take it at your own pace.";
+"先完成感官自测" = "Complete your sensory check-in first";
+"约 3 分钟 · 10 道题，完成后解锁每日计划。" = "About 3 minutes · 10 questions to unlock your daily plan.";
+"开始" = "Start";
+"每日计划未解锁" = "Daily plan locked";
+"完成自测后，就可以在这里安排每天的事件、\n记录感受并生成心情报告。" = "After the check-in, plan your day, record how you feel and generate a mood report here.";
+"开始自测" = "Start check-in";
+
+/* Daily plan */
+"生成今日份报告" = "Generate today's report";
+"添加事件" = "Add event";
+"删除这个事件？" = "Delete this event?";
+"删除后这条记录会从当天计划中彻底移除，无法恢复。" = "This record will be permanently removed from today's plan. This cannot be undone.";
+"删除这个事件" = "Delete this event";
+"前一天" = "Previous day";
+"后一天" = "Next day";
+"时间" = "Time";
+"地点" = "Place";
+"事件" = "Event";
+"已完成" = "Completed";
+"标记完成" = "Mark complete";
+"建议" = "Suggestion";
+"已记录" = "Recorded";
+"还没有安排" = "Nothing planned yet";
+"把今天要做的事写下来，\n完成后记录当时的感受。" = "Write down what you need to do today,\nand record how you feel when it's done.";
+"写下时间、地点和要做的事。" = "Add the time, place and what you need to do.";
+"时间，例如 09:00" = "Time, e.g. 09:00";
+"地点，例如 图书馆" = "Place, e.g. Library";
+"事件，例如 复习期中考试" = "Event, e.g. Review for midterm";
+"保存到这一天" = "Save to this day";
+"保存后会为这件事生成一条初步建议。" = "A starter suggestion will be generated for this event.";
+"记录感受" = "Record feeling";
+"在完成「%@」的过程中，你的感受是：" = "How did you feel while doing \"%@\"?";
+"基本没有不适，节奏还在自己手里" = "Mostly comfortable, still in control";
+"有些吃力，但还能继续完成" = "A bit demanding, but I could continue";
+"明显不适，需要离开或休息" = "Clearly uncomfortable, needed to leave or rest";
+
+/* Feelings */
+"平稳" = "Steady";
+"紧绷" = "Tense";
+"过载" = "Overloaded";
+
+/* Daily report */
+"今日心情报告" = "Today's mood report";
+" · 共 %lld 件事" = " · %lld events";
+"心情指数" = "Mood index";
+"今天，你稳稳地接住了每一件事。" = "You held steady through everything today.";
+"保持提前准备、及时休息的节奏，明天也会更从容。" = "Keep preparing ahead and resting in time. Tomorrow can feel easier.";
+"把这份节奏带到明天" = "Carry this rhythm into tomorrow";
+"提前 5 分钟到场" = "Arrive 5 minutes early";
+"每件事后留一点安静" = "Take a quiet pause after each event";
+"这不是你的错，也不是需要硬扛的一天。先把节奏放慢一点。" = "This isn't your fault, and today doesn't need to be endured. Slow down a little.";
+"明天可以试试" = "Try this tomorrow";
+"少安排一件高刺激的事" = "Plan one fewer high-stimulation event";
+"每件事后留 10 分钟安静时间" = "Take 10 quiet minutes after each event";
+"把降噪耳机和「退出信号」带上" = "Bring noise-cancelling headphones and an “exit signal”";
+"个性化调整方案会在后续版本接入。" = "Personalized adjustments will come in a later version.";
+"慢一点，也是在照顾自己。" = "Slow down. That's caring for yourself too.";
+"今天已经尽力了，休息不是退步。" = "You did your best today. Rest is not a step back.";
+"把节奏调慢，世界不会因此走远。" = "Slow the pace. The world won't drift away.";
+
+/* Settings */
+"之后可以在这里调整界面、提醒和隐私选项。" = "Adjust the interface, reminders and privacy options here.";
+"感官偏好" = "Sensory preferences";
+"提醒与声音" = "Reminders & sound";
+"隐私与数据" = "Privacy & data";
+"这些选项还在搭建中。" = "These options are still being built.";
+"穿戴设备" = "Wearables";
+"原型阶段为模拟授权；接入 iOS 后会调用 HealthKit。" = "Simulated authorization in the prototype; HealthKit will be used on iOS.";
+"已连接 · 心率与活动" = "Connected · heart rate & activity";
+"未连接" = "Not connected";
+"断开" = "Disconnect";
+"即将开放" = "Coming soon";
+"连接" = "Connect";
+
+/* Onboarding */
+"稍后再说" = "Maybe later";
+"先了解你的\n感官画像" = "Get to know your\nsensory profile";
+"10 道题，大约 3 分钟。结果只保存在这台设备上，用来生成你的初步解决方案。" = "10 questions, about 3 minutes. Results stay on this device and are used to create your initial plan.";
+"回想过去 14 天的真实体验" = "Recall the past 14 days";
+"每题单选，按发生天数作答" = "One choice per question, by number of days";
+"记不清的题可以跳过" = "Skip anything you can't recall";
+"本问卷为自我了解工具，不替代专业评估。" = "A self-reflection tool, not a professional assessment.";
+"上一题" = "Previous";
+"过去 14 天里，这种情况出现了多少天？" = "How many days did this happen in the past 14 days?";
+"记不清，跳过这题" = "Can't recall, skip";
+"连接 Apple Watch？" = "Connect Apple Watch?";
+"暂不" = "Not now";
+"连接后可以读取心率与活动数据，帮助你把每日计划和身体状态放在一起看。" = "Connect to read heart rate and activity data, and see your plan alongside your body's state.";
+
+/* Quiz options */
+"0 天" = "0 days";
+"1–2 天" = "1–2 days";
+"3–5 天" = "3–5 days";
+"6–9 天" = "6–9 days";
+"10–14 天" = "10–14 days";
+
+/* Quiz sections */
+"对环境刺激的反应" = "Reactions to sensory input";
+"专注和沟通" = "Focus & communication";
+"活动和安排" = "Activities & plans";
+"应对和恢复" = "Coping & recovery";
+
+/* Quiz questions */
+"环境中的声音、光线、气味、触碰或拥挤让我觉得难以承受。" = "Sounds, lights, smells, touch or crowding feel overwhelming.";
+"几种环境刺激同时出现时，我觉得很难应付。" = "When several kinds of sensory input happen at once, I find it hard to cope.";
+"周围的刺激让我明显难以放松。" = "The stimulation around me makes it clearly hard to relax.";
+"周围的刺激让我很难集中注意力。" = "The stimulation around me makes it hard to concentrate.";
+"周围的刺激让我很难跟上交谈。" = "The stimulation around me makes it hard to follow conversations.";
+"我因为周围的刺激，不得不暂停正在做的事。" = "Because of the stimulation around me, I had to pause what I was doing.";
+"我因为周围的刺激，没能完成原本要做的事。" = "Because of the stimulation around me, I couldn't finish what I had planned.";
+"为了避开让我难受的刺激，我不得不改动原先的安排。" = "To avoid uncomfortable stimulation, I had to change my plans.";
+"为了继续活动，我需要花明显的额外精力减弱周围的刺激。" = "To keep going, I needed noticeable extra effort to reduce the stimulation around me.";
+"刺激减弱或离开现场后，我仍因不适而难以继续日常活动。" = "Even after the stimulation eased or I left, I still found it hard to continue daily activities.";
+
+/* Quiz short labels */
+"环境刺激难以承受" = "Sensory input overwhelming";
+"多种刺激同时出现" = "Multiple inputs at once";
+"难以放松" = "Hard to relax";
+"难以集中注意力" = "Hard to concentrate";
+"难以跟上交谈" = "Hard to follow conversations";
+"不得不暂停" = "Had to pause";
+"没能完成计划" = "Couldn't finish plans";
+"不得不改安排" = "Had to change plans";
+"需要额外精力" = "Needed extra effort";
+"离开后仍难恢复" = "Still hard to recover";
+
+/* Bands */
+"本期未报告所列体验" = "No listed experiences this period";
+"过去 14 天，这 10 项经历在你的回忆里都很少出现。可以记下哪些环境让你觉得自在，之后安排同类活动时继续沿用。" = "In the past 14 days these experiences rarely came up. Note which environments feel comfortable and reuse them when planning similar activities.";
+"保持现在的节奏" = "Keep your current rhythm";
+"你目前的环境和作息大致合适，不需要额外调整。" = "Your current environment and routine seem to fit. No extra changes needed.";
+"记录有效条件" = "Record what works";
+"记下让你舒服的座位、时段和活动方式，下次直接复用。" = "Note the seats, times and formats that feel comfortable, and reuse them next time.";
+"保留固定作息" = "Keep a steady routine";
+"稳定的睡眠和用餐时间，能帮你在环境变化时更从容。" = "Stable sleep and meal times help you stay more at ease when the environment changes.";
+"有部分体验值得回顾" = "Some experiences are worth reviewing";
+"你回忆到至少一项与环境刺激有关的体验。有人只在特定场所觉得难受，也有人不太介意刺激本身，却要花额外精力才能继续。" = "You recalled at least one experience related to sensory input. Some people feel uncomfortable only in certain places; others are not bothered by the input itself but need extra effort to keep going.";
+"找出最难受的一题" = "Find the hardest moment";
+"回想当时在做什么、周围有什么声音或光线，先找到一个具体场景。" = "Think about what you were doing and what sounds or lights were around. Start with one concrete scene.";
+"微调一个场景" = "Adjust one scene";
+"只改一个变量，比如换到靠墙的位置，或把活动挪到人少的时段。" = "Change just one variable, such as sitting near a wall or moving the activity to a quieter time.";
+"留出恢复时间" = "Leave time to recover";
+"在一件消耗较大的事之后，给自己 10–15 分钟安静时间。" = "After something draining, give yourself 10–15 quiet minutes.";
+"多项体验或日常影响有记录" = "Several experiences or daily impacts recorded";
+"这两周里，你报告了多项体验。可以分别回看：哪些刺激让你不舒服、哪些场景影响了专注、哪些活动需要暂停或改动。" = "You reported several experiences in the past two weeks. Look at them separately: which input felt uncomfortable, which scenes affected focus, and which activities needed pausing or changing.";
+"一次只改一个场景" = "Change one scene at a time";
+"选一个最想改善的日常场景，先调整它，不要同时改变所有习惯。" = "Pick one daily scene you most want to improve and adjust that first, rather than changing everything at once.";
+"准备降噪工具" = "Prepare calming tools";
+"把耳机、帽子或墨镜放在随手可取的位置，需要时立刻用上。" = "Keep headphones, a hat or sunglasses within reach so you can use them right away.";
+"建立「退出信号」" = "Create an “exit signal”";
+"和同伴约好一个手势或短句，需要离场时可以不用解释太多。" = "Agree on a gesture or short phrase with companions so you can leave without explaining much.";
+"多项体验反复出现" = "Several experiences recur";
+"按这组回答，至少六项体验在过去 14 天里各出现过 3 天或更多。先看看哪些经历最影响你想做的事，再决定优先调整哪一块。" = "Based on these answers, at least six experiences occurred on 3 or more days in the past two weeks. Start with the ones that most affect what you want to do, then choose what to adjust first.";
+"优先减少高刺激时段" = "Reduce high-stimulation periods first";
+"把必须完成的事尽量安排在刺激较少的时间和人流较少的路线。" = "Schedule must-do tasks at quieter times and on less crowded routes when possible.";
+"把恢复写进日程" = "Put recovery on the schedule";
+"每天预留一段不安排任务的安静时间，像约会一样固定下来。" = "Reserve a quiet, task-free block every day and keep it like an appointment.";
+"考虑寻求专业支持" = "Consider professional support";
+"如果这些体验持续影响上课、出行或休息，可以带着记录咨询校医院或心理中心。" = "If these experiences keep affecting classes, travel or rest, bring your notes to a campus clinic or counseling center.";
+
+/* Missing band */
+"已记录部分体验" = "Some experiences recorded";
+"还有题目没有作答，这次先用已记录的内容给你一份初步方向。等能回想起更多信息时，可以重新完成问卷。" = "Some questions are unanswered, so this is a starting direction based on what you recorded. You can retake the questionnaire when you recall more.";
+"先从记得清楚的场景开始" = "Start with a clear memory";
+"不需要一次想全，先记录最近一次明显不舒服的经历。" = "You don't need to recall everything. Start with the most recent clearly uncomfortable experience.";
+"观察时间和地点" = "Notice time and place";
+"留意刺激出现的时间、当时在做的事，以及之后多久恢复。" = "Notice when the input appeared, what you were doing, and how long recovery took.";
+"之后补完问卷" = "Finish the questionnaire later";
+"等信息更完整时重新作答，结果会更贴近你的日常。" = "Retake it when you have more information; the result will better reflect your daily life.";
+
+/* Solution report */
+"初步解决方案" = "Initial plan";
+"刚刚生成" = "Just now";
+"基于过去 14 天的 %lld 项体验 · 只保存在本机" = "Based on %lld experiences from the past 14 days · Stored on this device";
+"先做这三件事" = "Three things to start with";
+"你的高信号场景" = "Your high-signal moments";
+"这份评估是怎么算的？" = "How is this assessment calculated?";
+"保存方案并继续" = "Save plan and continue";
+"这是自我了解工具，不构成诊断。如果这些体验持续影响上课、出行或休息，可以带着记录咨询校医院或心理中心。" = "This is a self-reflection tool, not a diagnosis. If these experiences keep affecting classes, travel or rest, bring your notes to a campus clinic or counseling center.";
+
+/* Rule page */
+"评估规则" = "Assessment rules";
+"这份结果是怎么来的" = "How this result is calculated";
+"问卷共 10 题，回想过去 14 天的体验。每题按发生天数选择，分数只用于把体验归入一个大致的区间。" = "The questionnaire has 10 questions about the past 14 days. Each answer is based on the number of days, and scores only place experiences into a broad range.";
+"怎么计分" = "How scoring works";
+"每题 5 个选项，分别记 0、1、2、3、4 分。" = "Each question has 5 options, scored 0, 1, 2, 3 or 4.";
+"0 天记 0 分；1–2 天记 1 分；3–5 天记 2 分；6–9 天记 3 分；10–14 天记 4 分。" = "0 days = 0; 1–2 days = 1; 3–5 days = 2; 6–9 days = 3; 10–14 days = 4.";
+"10 题相加，最低 0 分，最高 40 分，每题权重相同。" = "The 10 answers are added: minimum 0, maximum 40, with equal weight.";
+"有题目留空时显示「暂无总分」，只保留已答内容。" = "If any question is left blank, the total is shown as unavailable and only answered items are kept.";
+"分数区间" = "Score ranges";
+"0 分" = "0 points";
+"1–13 分" = "1–13 points";
+"14–26 分" = "14–26 points";
+"27–40 分" = "27–40 points";
+"高信号场景" = "High-signal moments";
+"总分大于 0 时，会列出分值最高的最多三条回答，同分按题号排序。" = "When the total is above 0, up to three highest-scoring answers are listed, with ties ordered by question number.";
+"这只是帮你回忆具体场景，不代表医学判断。" = "This only helps you recall specific scenes; it is not a medical judgment.";
+"本问卷为感官巢原创自评工具，分值及区间尚未经信效度验证。结果只用于自我回顾和原型反馈，不能替代专业评估。" = "This is a ScapeNest self-assessment tool. Scores and ranges have not been validated for reliability or validity. Results are for self-reflection and prototype feedback only, and cannot replace professional assessment.";
+
+/* Wearable */
+"允许静界读取\nApple Watch 数据？" = "Allow QuietSpace to read\nApple Watch data?";
+"授权后可以读取心率、活动与睡眠数据，帮你把每日计划和身体状态放在一起看。" = "Allow access to heart rate, activity and sleep data so you can see your plan alongside your body's state.";
+"心率" = "Heart rate";
+"事件前后的心率变化" = "Heart rate around events";
+"活动" = "Activity";
+"步数与活动时间" = "Steps and active time";
+"睡眠" = "Sleep";
+"夜间睡眠时长" = "Sleep duration";
+"允许" = "Allow";
+"不允许" = "Don't allow";
+"原型演示：正式版接入 iOS 后会调用 HealthKit 系统授权。" = "Prototype: the iOS version will use the HealthKit authorization sheet.";
+
+/* Advice templates */
+"选择靠墙或角落的位置，随身带降噪耳机；每 40 分钟起身休息一次。" = "Choose a seat near a wall or corner and bring noise-cancelling headphones. Stand up and rest every 40 minutes.";
+"避开 12:00–12:30 的高峰，选靠窗座位，缩短排队时间。" = "Avoid the 12:00–12:30 rush, choose a window seat, and keep queueing short.";
+"提前 5 分钟到场，先确认出口和安静角落；需要时可以短暂离场。" = "Arrive 5 minutes early, locate the exit and a quiet corner, and step out briefly if needed.";
+"提前 5 分钟到场，先观察环境；把手机调成静音，给自己留一个可以退出的位置。" = "Arrive 5 minutes early and scan the environment. Put your phone on silent and keep an easy exit.";
+"避开排队高峰，选靠窗座位；如果人声太杂，可以缩短停留时间。" = "Avoid peak queues and choose a window seat. If it gets too noisy, shorten your stay.";
+
+/* Demo content */
+"图书馆" = "Library";
+"食堂" = "Cafeteria";
+"教学楼" = "Teaching hall";
+"复习期中考试" = "Review for midterm";
+"午餐" = "Lunch";
+"小组讨论" = "Group discussion";
+
+"点击查看完整内容" = "Tap to read more";
+"查看完整内容" = "Read the full text";
+" · 1 件事" = " · 1 event";
+
+"时间：" = "Time:";
+
+/* Scenario advice */
+"提前把手机调成静音，先列三件最重要的事；完成一件就去窗边站一会儿。" = "Silence your phone, list the three most important things, and stand by the window after each one.";
+"如果人开始变多，换到靠窗的单人座；需要时用耳机播白噪音。" = "If it gets crowded, move to a single seat by the window and play white noise if needed.";
+"坐在靠过道或后排，方便进出；提前 5 分钟到，先看一眼讲义结构。" = "Sit near the aisle or at the back for easy exits; arrive 5 minutes early and glance at the handout.";
+"带一支笔和一张纸，把没听懂的地方记下来，课后只补最关键的两处。" = "Bring a pen and paper, note what you missed, and review only the two key points afterwards.";
+"如果投影太亮或人声太杂，坐侧后方；中场休息时出去透口气。" = "If the screen is too bright or the room too noisy, sit toward the side-back and step out at the break.";
+"提前 15 分钟到，先在安静处做四次慢呼吸；把水和纸巾放在手边。" = "Arrive 15 minutes early, take four slow breaths somewhere quiet, and keep water and tissues nearby.";
+"进场前把手机静音，确认座位和出口；如果紧张，先写下一个开头。" = "Silence your phone, check your seat and exit; if nervous, write down an opening line.";
+"选靠墙的位置，发言前先停顿两秒；需要时用一句“我整理一下”争取时间。" = "Sit near the wall and pause for two seconds before speaking; say \"let me gather my thoughts\" if you need time.";
+"如果人多，把自己的发言顺序提前；结束后可以直接离开，不必强迫社交。" = "If the room is full, move your turn earlier; leave right after without forcing social time.";
+"避开 12:00–12:30 和 18:00–18:30 的高峰，选靠窗座位，缩短排队时间。" = "Avoid the 12:00–12:30 and 18:00–18:30 peaks, choose a window seat, and keep queueing short.";
+"错峰 20 分钟再去，或者打包带走；人声太杂时换到角落。" = "Shift 20 minutes off-peak or take food away; move to a corner if it gets noisy.";
+"先找好座位再取餐，吃完就离开，不用在嘈杂处等同伴。" = "Find a seat before getting food, and leave once you're done instead of waiting in the noise.";
+"选人少的时段，提前热身；戴一只耳机听自己的节奏。" = "Go at a quieter time and warm up first; keep one earbud in to follow your own rhythm.";
+"先绕场走一圈确认出口和饮水点；强度以能正常说话为准。" = "Walk a lap to locate the exit and water point; keep the intensity where you can still talk.";
+"睡前 30 分钟调暗灯光，手机放远一点；用耳塞或白噪音。" = "Dim the lights 30 minutes before bed, keep your phone away, and use earplugs or white noise.";
+"把明天第一件事写下来，避免躺下后反复想；室温调低一点。" = "Write down tomorrow's first task so you don't replay it in bed; keep the room a little cool.";
+"避开最挤的班次，提前一班出门；站在车厢连接处或靠门位置。" = "Take an earlier, less crowded service and stand near the door or carriage joint.";
+"戴降噪耳机，背包放身前；换乘时留 10 分钟缓冲。" = "Wear noise-cancelling headphones, keep your bag in front, and leave 10 minutes for transfers.";
+"如果人太多，等下一班；到站后先在人少处停一分钟再走。" = "If it's too crowded, wait for the next one; pause somewhere quiet for a minute after arriving.";
+"先列清单，按货架顺序走；避开周末下午的人流。" = "Make a list and follow the aisle order; avoid weekend afternoons.";
+"戴耳机、走靠边通道；买完就离开，不临时加逛。" = "Wear headphones, use the side aisles, and leave once you've bought what you need.";
+"提前把证件和问题清单放在一个袋子里；选人少的时段挂号。" = "Put your ID and question list in one bag; book a quieter time slot.";
+"候诊时坐靠墙位置，戴耳机；等待超过 30 分钟就去外面走一圈。" = "Wait near a wall with headphones; if it's over 30 minutes, take a short walk outside.";
+"选靠过道的座位，提前 10 分钟进场；带耳塞以备音量过大。" = "Choose an aisle seat and arrive 10 minutes early; bring earplugs in case it's loud.";
+"先看节目单，标记想看的段落；中场休息时出去透气。" = "Check the programme and mark the parts you want to see; step out during the interval.";
+"只待计划好的时长，提前想好一句离场的话；到场先找安静角落。" = "Stay for the time you planned and prepare one exit line; find a quiet corner when you arrive.";
+"和熟悉的人一起去，约定一个互相提醒的暗号；不强迫自己敬酒。" = "Go with someone you know, agree on a signal, and don't force yourself to drink.";
+"戴耳机，提前 5 分钟测试麦克风；把通知全部静音。" = "Use headphones, test your mic 5 minutes early, and silence all notifications.";
+"关掉摄像头也没关系，先听；需要发言时再打开。" = "It's fine to keep your camera off and just listen; turn it on when you need to speak.";
+"先确认通风和出口，把要用的东西放在手边；每 45 分钟出去透气。" = "Check ventilation and exits first, keep what you need within reach, and step out every 45 minutes.";
+"把步骤写在纸上，做完一步划掉一步，减少来回确认。" = "Write the steps on paper and tick them off one by one to avoid rechecking.";
+"先在网上取号，避开午休前后；带好证件复印件。" = "Take a number online and avoid the lunch period; bring copies of your documents.";
+"排队时站靠边，戴耳机；超过 40 分钟就改约下一个时段。" = "Stand to the side with headphones; if it takes over 40 minutes, book another slot.";
+"先找到出口和安静角落；把任务拆成两步，做完一步就休息一下。" = "Find the exit and a quiet corner first; split the task into two steps and rest after each.";
+"如果现场比预期吵，缩短停留时间；离开后给自己 5 分钟恢复。" = "If it's noisier than expected, shorten your stay; give yourself 5 minutes to recover afterwards.";
+
+"先走一圈看看人流，再决定买什么；拿好随身物品，尽量缩短停留。" = "Walk once around to gauge the crowd before buying; keep your belongings close and shorten your stay.";
+"避开最挤的入口，从侧边摊位开始；买完就离开，不在人群中久站。" = "Avoid the busiest entrance, start from the side stalls, and leave once you've bought what you want.";
+
+"很好，保持这个节奏。把让你平稳的做法留给明天。" = "Good — keep this rhythm. Hold on to what helped you stay calm for tomorrow.";
+"先慢下来：呼气比吸气长一点，肩膀放松，喝口水。" = "Slow down: make your exhale a little longer, drop your shoulders, and take a sip of water.";
+"先离开一下也没关系。找个安静的地方，做三次慢呼吸，再决定下一步。" = "It's okay to step away. Find somewhere quiet, take three slow breaths, then decide what's next.";
+
+"近 7 天情绪趋势" = "7-day mood trend";
+"仅统计已生成报告" = "Reported days only";
+"最新" = "Latest";
+"生成第一份今日报告后，这里会显示近 7 天的情绪变化。" = "Generate today's first report to see your 7-day mood trend here.";
+"今日情绪波动" = "Today's mood shifts";
+"按事件时间" = "By event time";
+"由 Fantôme 制作" = "Made by Fantôme";
+
+"绿色系" = "Green";
+"红色系" = "Red";
+"粉色系" = "Pink";
+"蓝色系" = "Blue";
+"黄色系" = "Yellow";
+"界面配色" = "Color theme";
+"应用到所有界面" = "Applies everywhere";
+
+"通知" = "Notifications";
+"隐私" = "Privacy";
+"选择你的小伙伴" = "Choose your companion";
+"会出现在界面里" = "Appears across the app";
+"小兔子" = "Bunny";
+"小猫" = "Cat";
+"小狗" = "Dog";
+
+"仓鼠" = "Hamster";
+"小刺猬" = "Hedgehog";
+"小鸭子" = "Duck";
+
+"今日感官报告" = "Today's sensory report";
+"今日感官负荷" = "Today's sensory load";
+"近 7 天感官负荷" = "7-day sensory load";
+"生成第一份今日报告后，这里会显示近 7 天的感官负荷。" = "Generate today's first report to see your 7-day sensory load here.";
+"今天的负荷在可承受范围内。" = "Today's load stayed within a manageable range.";
+"今天有一些时刻接近阈值，先缓一缓。" = "Some moments came close to the threshold today; slow down for a bit.";
+"今天的负荷超出了可调节范围，先照顾自己。" = "Today's load went beyond what you could adjust; take care of yourself first.";
+"有 %lld 件事达到重度过载" = "%lld events reached severe overload";
+"紧张" = "Tense";
