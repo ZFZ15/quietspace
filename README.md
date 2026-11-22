@@ -15,7 +15,9 @@
 
 ## 下载
 
-[QuietSpace-0.1-macOS.zip](download/QuietSpace-0.1-macOS.zip)
+[QuietSpace-0.1-macOS.zip](https://cdn.jsdelivr.net/gh/ZFZ15/quietspace@main/download/QuietSpace-0.1-macOS.zip)
+
+GitHub raw 备用：`https://github.com/ZFZ15/quietspace/raw/main/download/QuietSpace-0.1-macOS.zip`
 
 ## 快速运行
 

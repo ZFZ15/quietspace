@@ -2,8 +2,8 @@
 
 ## 1. 必须先准备的链接
 
-- [ ] 公开 GitHub 仓库（Apache License 2.0）：`https://github.com/<账号>/<仓库>`
-- [ ] GitHub Release 里的 Mac 安装包：`https://github.com/<账号>/<仓库>/releases/download/v0.1/静界-0.1-macOS.zip`
+- [ ] 公开 GitHub 仓库（Apache License 2.0）：`https://github.com/ZFZ15/quietspace`
+- [ ] GitHub Release 里的 Mac 安装包：`https://cdn.jsdelivr.net/gh/ZFZ15/quietspace@main/download/QuietSpace-0.1-macOS.zip`
 - [ ] 演示视频链接（YouTube / Vimeo 不公开链接，或 Devpost 视频上传）
 - [ ] 项目海报 PDF（AMD API 生成，另见第 3 节）
 
