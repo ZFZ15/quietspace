@@ -13,6 +13,10 @@
 
 ![主页](docs/home.png)
 
+## 下载
+
+[QuietSpace-0.1-macOS.zip](download/QuietSpace-0.1-macOS.zip)
+
 ## 快速运行
 
 需要 macOS 14 或更高版本，以及 Command Line Tools（或完整 Xcode）。
