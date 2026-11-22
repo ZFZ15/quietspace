@@ -136,6 +136,11 @@ Resources/
   - `xattr -dr com.apple.quarantine "/Applications/静界.app"`
 - 没有 `.xcodeproj`：当前构建环境只有 Command Line Tools，`build.sh` 是正式构建入口。
 
+## License
+
+Source code is released under the **Apache License, Version 2.0**.  
+See `LICENSE` and `NOTICE`. Third-party / AI-assisted disclosure is in `THIRD_PARTY.md`.
+
 ## 制作
 
 由 Fantôme 制作 · Made by Fantôme  
